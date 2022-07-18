@@ -11,7 +11,7 @@ function atualizarTempo() {
 
 function corrigirHorario(numero){
     if(numero < 10){
-        numero = ")" + numero
+        numero = "0" + numero
     }
     return numero
 }
